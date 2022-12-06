@@ -1,4 +1,5 @@
 <script>
+let list_id = 0;
 export default {
     data() {
         return {
@@ -6,14 +7,19 @@ export default {
             titleClass: 'red',
             count: 0,
             text: '',
+            awesome: true,
             checked: false,
             checkedNames: [],
             selected: '',
-            options:[
-                {text:'jalil',value:'jalil'},
-                {text:'aysal',value:'aysal'},
-                {text:'ali',value:'ali'}
-            ]
+            options: [
+                { text: 'jalil', value: 'jalil' },
+                { text: 'aysal', value: 'aysal' },
+                { text: 'ali', value: 'ali' }
+            ],
+            list: [
+                { id: list_id++, name: 'jalil' }
+            ],
+            item_name: ''
         }
     },
     methods: {
@@ -22,6 +28,16 @@ export default {
         },
         onInput(e) {
             this.text = e.target.value;
+        },
+        toggle() {
+            this.awesome = !this.awesome;
+        },
+        removeItem(item) {
+            this.list = this.list.filter((t) => t != item);
+        },
+        addItem() {
+            this.list.push({ id: list_id++, name: this.item_name });
+            this.item_name = '';
         }
     }
 }
@@ -34,6 +50,7 @@ export default {
     <input @input="onInput" />
 
     <input v-model="text" />
+    <input v-model.lazy="text" />
     <p>{{ text }}</p>
     <hr />
 
@@ -60,9 +77,24 @@ export default {
         <option>aysal</option>
     </select>
     <select v-model="selected">
-        <option v-for="option in options" :value="option.value">{{option.text}}</option>
+        <option v-for="option in options" :value="option.value">{{ option.text }}</option>
     </select>
     <hr />
+    <button @click="toggle">Toggle</button>
+
+    <h3 v-if="awesome">vue is awesome</h3>
+    <h3 v-else>vue not awesome</h3>
+    <hr />
+    <form @submit.prevent="addItem">
+        <input v-model="item_name" />
+        <button>Add to list</button>
+    </form>
+    <ul>
+        <li v-for="item in list" :key="item.id">
+            {{ item.name }}
+            <button @click="removeItem(item)">x</button>
+        </li>
+    </ul>
 
 </template>
 <style>
