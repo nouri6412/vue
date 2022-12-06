@@ -8,6 +8,9 @@ export default {
 </script>
 <template>
 <div>
-    tag from child
+    tag from child 
+</div>
+<div>
+    Global var is : {{global_val}}
 </div>
 </template>

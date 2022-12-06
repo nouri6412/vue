@@ -1,5 +1,7 @@
 <script>
 import ChildPart from './parts/child.vue';
+
+
 let list_id = 0;
 export default {
     components: {
@@ -109,6 +111,7 @@ export default {
     <ChildPart @response="eventChild" />
     <p>{{ ChildText }}</p>
     <p>{{ ChildTextSecond }}</p>
+    <hr />
 </template>
 <style>
 .red {
