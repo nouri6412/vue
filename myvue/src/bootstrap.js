@@ -1,0 +1,8 @@
+import { createApp } from "vue";
+
+import "bootstrap/dist/css/bootstrap.min.css"
+import "bootstrap"
+
+import App from './bootstrap.vue';
+
+createApp(App).mount('#app');

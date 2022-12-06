@@ -8,6 +8,9 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@popperjs/core": "^2.11.6",
+    "bootstrap": "^5.2.3",
+    "bootstrap-vue": "^2.23.1",
     "vue": "^3.2.45",
     "vue-confetti": "^2.3.0",
     "vue-confetti-explosion": "^1.0.2"
