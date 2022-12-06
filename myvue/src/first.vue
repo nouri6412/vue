@@ -1,6 +1,10 @@
 <script>
+import ChildPart from './parts/child.vue';
 let list_id = 0;
 export default {
+    components: {
+        ChildPart
+    },
     data() {
         return {
             message: 'Hello world vue',
@@ -19,7 +23,8 @@ export default {
             list: [
                 { id: list_id++, name: 'jalil' }
             ],
-            item_name: ''
+            item_name: '',
+            ChildText: 'No message from child'
         }
     },
     methods: {
@@ -95,6 +100,9 @@ export default {
             <button @click="removeItem(item)">x</button>
         </li>
     </ul>
+    <hr />
+    <ChildPart @response="(msg) => ChildText = msg" />
+    <p>{{ ChildText }}</p>
 
 </template>
 <style>
