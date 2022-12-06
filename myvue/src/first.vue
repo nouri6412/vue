@@ -24,7 +24,8 @@ export default {
                 { id: list_id++, name: 'jalil' }
             ],
             item_name: '',
-            ChildText: 'No message from child'
+            ChildText: 'No message from child',
+            ChildTextSecond: 'No message from child'
         }
     },
     methods: {
@@ -43,6 +44,10 @@ export default {
         addItem() {
             this.list.push({ id: list_id++, name: this.item_name });
             this.item_name = '';
+        },
+        eventChild(arg1, arg2) {
+            this.ChildText = arg1;
+            this.ChildTextSecond = arg2;
         }
     }
 }
@@ -101,9 +106,9 @@ export default {
         </li>
     </ul>
     <hr />
-    <ChildPart @response="(msg) => ChildText = msg" />
+    <ChildPart @response="eventChild" />
     <p>{{ ChildText }}</p>
-
+    <p>{{ ChildTextSecond }}</p>
 </template>
 <style>
 .red {
