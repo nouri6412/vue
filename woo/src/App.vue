@@ -10,7 +10,7 @@
 		<div id="kt_header_mobile" class="kt-header-mobile  kt-header-mobile--fixed ">
 			<div class="kt-header-mobile__logo">
 				<a href="demo1/index.html">
-					<img alt="Logo" src="assets/media/logos/logo-light.png" />
+					<img alt="Logo" src="./assets/media/logos/logo-light.png" />
 				</a>
 			</div>
 			<div class="kt-header-mobile__toolbar">
@@ -32,7 +32,7 @@
 					<div class="kt-aside__brand kt-grid__item " id="kt_aside_brand">
 						<div class="kt-aside__brand-logo">
 							<a href="demo1/index.html">
-								<img alt="Logo" src="assets/media/logos/logo-light.png" />
+								<img alt="Logo" src="./assets/media/logos/logo-light.png" />
 							</a>
 						</div>
 						<div class="kt-aside__brand-tools">
@@ -1460,7 +1460,7 @@
 															</div>
 														</div>
 														<a href="#" class="kt-mycart__pic">
-															<img src="assets/media/products/product9.jpg" title="">
+															<img src="./assets/media/products/product9.jpg" title="">
 														</a>
 													</div>
 												</div>
@@ -1482,7 +1482,7 @@
 															</div>
 														</div>
 														<a href="#" class="kt-mycart__pic">
-															<img src="assets/media/products/product13.jpg" title="">
+															<img src="./assets/media/products/product13.jpg" title="">
 														</a>
 													</div>
 												</div>
@@ -1504,7 +1504,7 @@
 															</div>
 														</div>
 														<a href="#" class="kt-mycart__pic">
-															<img src="assets/media/products/product16.jpg" title="">
+															<img src="./assets/media/products/product16.jpg" title="">
 														</a>
 													</div>
 												</div>
@@ -1526,7 +1526,7 @@
 															</div>
 														</div>
 														<a href="#" class="kt-mycart__pic">
-															<img src="assets/media/products/product15.jpg" title="" alt="">
+															<img src="./assets/media/products/product15.jpg" title="" alt="">
 														</a>
 													</div>
 												</div>
@@ -1575,26 +1575,26 @@
 							<div class="kt-header__topbar-item kt-header__topbar-item--langs">
 								<div class="kt-header__topbar-wrapper" data-toggle="dropdown" data-offset="10px,0px">
 									<span class="kt-header__topbar-icon">
-										<img class="" src="assets/media/flags/020-flag.svg" alt="" />
+										<img class="" src="./assets/media/flags/020-flag.svg" alt="" />
 									</span>
 								</div>
 								<div class="dropdown-menu dropdown-menu-fit dropdown-menu-right dropdown-menu-anim dropdown-menu-top-unround">
 									<ul class="kt-nav kt-margin-t-10 kt-margin-b-10">
 										<li class="kt-nav__item kt-nav__item--active">
 											<a href="#" class="kt-nav__link">
-												<span class="kt-nav__link-icon"><img src="assets/media/flags/020-flag.svg" alt="" /></span>
+												<span class="kt-nav__link-icon"><img src="./assets/media/flags/020-flag.svg" alt="" /></span>
 												<span class="kt-nav__link-text">English</span>
 											</a>
 										</li>
 										<li class="kt-nav__item">
 											<a href="#" class="kt-nav__link">
-												<span class="kt-nav__link-icon"><img src="assets/media/flags/016-spain.svg" alt="" /></span>
+												<span class="kt-nav__link-icon"><img src="./assets/media/flags/016-spain.svg" alt="" /></span>
 												<span class="kt-nav__link-text">Spanish</span>
 											</a>
 										</li>
 										<li class="kt-nav__item">
 											<a href="#" class="kt-nav__link">
-												<span class="kt-nav__link-icon"><img src="assets/media/flags/017-germany.svg" alt="" /></span>
+												<span class="kt-nav__link-icon"><img src="./assets/media/flags/017-germany.svg" alt="" /></span>
 												<span class="kt-nav__link-text">German</span>
 											</a>
 										</li>
@@ -1610,7 +1610,7 @@
 									<div class="kt-header__topbar-user">
 										<span class="kt-header__topbar-welcome kt-hidden-mobile">Hi,</span>
 										<span class="kt-header__topbar-username kt-hidden-mobile">Sean</span>
-										<img class="kt-hidden" alt="Pic" src="assets/media/users/300_25.jpg" />
+										<img class="kt-hidden" alt="Pic" src="./assets/media/users/300_25.jpg" />
 
 										<!--use below badge element instead the user avatar to display username's first letter(remove kt-hidden class to display it) -->
 										<span class="kt-badge kt-badge--username kt-badge--unified-success kt-badge--lg kt-badge--rounded kt-badge--bold">S</span>
@@ -1621,7 +1621,7 @@
 									<!--begin: Head -->
 									<div class="kt-user-card kt-user-card--skin-dark kt-notification-item-padding-x" style="background-image: url(assets/media/misc/bg-1.jpg)">
 										<div class="kt-user-card__avatar">
-											<img class="kt-hidden" alt="Pic" src="assets/media/users/300_25.jpg" />
+											<img class="kt-hidden" alt="Pic" src="./assets/media/users/300_25.jpg" />
 
 											<!--use below badge element instead the user avatar to display username's first letter(remove kt-hidden class to display it) -->
 											<span class="kt-badge kt-badge--lg kt-badge--rounded kt-badge--bold kt-font-success">S</span>
@@ -2180,10 +2180,10 @@
 															AEOL Meeting With
 														</div>
 														<div class="kt-list-pics kt-list-pics--sm kt-padding-l-20">
-															<a href="#"><img src="assets/media/users/100_4.jpg" title=""></a>
-															<a href="#"><img src="assets/media/users/100_13.jpg" title=""></a>
-															<a href="#"><img src="assets/media/users/100_11.jpg" title=""></a>
-															<a href="#"><img src="assets/media/users/100_14.jpg" title=""></a>
+															<a href="#"><img src="./assets/media/users/100_4.jpg" title=""></a>
+															<a href="#"><img src="./assets/media/users/100_13.jpg" title=""></a>
+															<a href="#"><img src="./assets/media/users/100_11.jpg" title=""></a>
+															<a href="#"><img src="./assets/media/users/100_14.jpg" title=""></a>
 														</div>
 													</div>
 													<div class="kt-timeline-v2__item">
@@ -2348,7 +2348,7 @@
 											<div class="kt-widget19__wrapper">
 												<div class="kt-widget19__content">
 													<div class="kt-widget19__userpic">
-														<img src="assets/media//users/user1.jpg" alt="">
+														<img src="./assets/media//users/user1.jpg" alt="">
 													</div>
 													<div class="kt-widget19__info">
 														<a href="#" class="kt-widget19__username">
@@ -2422,7 +2422,7 @@
 														<div class="kt-widget5__item">
 															<div class="kt-widget5__content">
 																<div class="kt-widget5__pic">
-																	<img class="kt-widget7__img" src="assets/media//products/product27.jpg" alt="">
+																	<img class="kt-widget7__img" src="./assets/media//products/product27.jpg" alt="">
 																</div>
 																<div class="kt-widget5__section">
 																	<a href="#" class="kt-widget5__title">
@@ -2453,7 +2453,7 @@
 														<div class="kt-widget5__item">
 															<div class="kt-widget5__content">
 																<div class="kt-widget5__pic">
-																	<img class="kt-widget7__img" src="assets/media//products/product22.jpg" alt="">
+																	<img class="kt-widget7__img" src="./assets/media//products/product22.jpg" alt="">
 																</div>
 																<div class="kt-widget5__section">
 																	<a href="#" class="kt-widget5__title">
@@ -2484,7 +2484,7 @@
 														<div class="kt-widget5__item">
 															<div class="kt-widget5__content">
 																<div class="kt-widget5__pic">
-																	<img class="kt-widget7__img" src="assets/media//products/product15.jpg" alt="">
+																	<img class="kt-widget7__img" src="./assets/media//products/product15.jpg" alt="">
 																</div>
 																<div class="kt-widget5__section">
 																	<a href="#" class="kt-widget5__title">
@@ -2519,7 +2519,7 @@
 														<div class="kt-widget5__item">
 															<div class="kt-widget5__content">
 																<div class="kt-widget5__pic">
-																	<img class="kt-widget7__img" src="assets/media//products/product10.jpg" alt="">
+																	<img class="kt-widget7__img" src="./assets/media//products/product10.jpg" alt="">
 																</div>
 																<div class="kt-widget5__section">
 																	<a href="#" class="kt-widget5__title">
@@ -2550,7 +2550,7 @@
 														<div class="kt-widget5__item">
 															<div class="kt-widget5__content">
 																<div class="kt-widget5__pic">
-																	<img class="kt-widget7__img" src="assets/media//products/product11.jpg" alt="">
+																	<img class="kt-widget7__img" src="./assets/media//products/product11.jpg" alt="">
 																</div>
 																<div class="kt-widget5__section">
 																	<a href="#" class="kt-widget5__title">
@@ -2581,7 +2581,7 @@
 														<div class="kt-widget5__item">
 															<div class="kt-widget5__content">
 																<div class="kt-widget5__pic">
-																	<img class="kt-widget7__img" src="assets/media//products/product6.jpg" alt="">
+																	<img class="kt-widget7__img" src="./assets/media//products/product6.jpg" alt="">
 																</div>
 																<div class="kt-widget5__section">
 																	<a href="#" class="kt-widget5__title">
@@ -2616,7 +2616,7 @@
 														<div class="kt-widget5__item">
 															<div class="kt-widget5__content">
 																<div class="kt-widget5__pic">
-																	<img class="kt-widget7__img" src="assets/media//products/product11.jpg" alt="">
+																	<img class="kt-widget7__img" src="./assets/media//products/product11.jpg" alt="">
 																</div>
 																<div class="kt-widget5__section">
 																	<a href="#" class="kt-widget5__title">
@@ -2647,7 +2647,7 @@
 														<div class="kt-widget5__item">
 															<div class="kt-widget5__content">
 																<div class="kt-widget5__pic">
-																	<img class="kt-widget7__img" src="assets/media//products/product6.jpg" alt="">
+																	<img class="kt-widget7__img" src="./assets/media//products/product6.jpg" alt="">
 																</div>
 																<div class="kt-widget5__section">
 																	<a href="#" class="kt-widget5__title">
@@ -2678,7 +2678,7 @@
 														<div class="kt-widget5__item">
 															<div class="kt-widget5__content">
 																<div class="kt-widget5__pic">
-																	<img class="kt-widget7__img" src="assets/media//products/product10.jpg" alt="">
+																	<img class="kt-widget7__img" src="./assets/media//products/product10.jpg" alt="">
 																</div>
 																<div class="kt-widget5__section">
 																	<a href="#" class="kt-widget5__title">
@@ -2745,7 +2745,7 @@
 													<div class="kt-widget4">
 														<div class="kt-widget4__item">
 															<div class="kt-widget4__pic kt-widget4__pic--pic">
-																<img src="assets/media/users/100_4.jpg" alt="">
+																<img src="./assets/media/users/100_4.jpg" alt="">
 															</div>
 															<div class="kt-widget4__info">
 																<a href="#" class="kt-widget4__username">
@@ -2759,7 +2759,7 @@
 														</div>
 														<div class="kt-widget4__item">
 															<div class="kt-widget4__pic kt-widget4__pic--pic">
-																<img src="assets/media/users/100_14.jpg" alt="">
+																<img src="./assets/media/users/100_14.jpg" alt="">
 															</div>
 															<div class="kt-widget4__info">
 																<a href="#" class="kt-widget4__username">
@@ -2773,7 +2773,7 @@
 														</div>
 														<div class="kt-widget4__item">
 															<div class="kt-widget4__pic kt-widget4__pic--pic">
-																<img src="assets/media/users/100_11.jpg" alt="">
+																<img src="./assets/media/users/100_11.jpg" alt="">
 															</div>
 															<div class="kt-widget4__info">
 																<a href="#" class="kt-widget4__username">
@@ -2787,7 +2787,7 @@
 														</div>
 														<div class="kt-widget4__item">
 															<div class="kt-widget4__pic kt-widget4__pic--pic">
-																<img src="assets/media/users/100_1.jpg" alt="">
+																<img src="./assets/media/users/100_1.jpg" alt="">
 															</div>
 															<div class="kt-widget4__info">
 																<a href="#" class="kt-widget4__username">
@@ -2801,7 +2801,7 @@
 														</div>
 														<div class="kt-widget4__item">
 															<div class="kt-widget4__pic kt-widget4__pic--pic">
-																<img src="assets/media/users/100_5.jpg" alt="">
+																<img src="./assets/media/users/100_5.jpg" alt="">
 															</div>
 															<div class="kt-widget4__info">
 																<a href="#" class="kt-widget4__username">
@@ -2819,7 +2819,7 @@
 													<div class="kt-widget4">
 														<div class="kt-widget4__item">
 															<div class="kt-widget4__pic kt-widget4__pic--pic">
-																<img src="assets/media/users/100_2.jpg" alt="">
+																<img src="./assets/media/users/100_2.jpg" alt="">
 															</div>
 															<div class="kt-widget4__info">
 																<a href="#" class="kt-widget4__username">
@@ -2833,7 +2833,7 @@
 														</div>
 														<div class="kt-widget4__item">
 															<div class="kt-widget4__pic kt-widget4__pic--pic">
-																<img src="assets/media/users/100_13.jpg" alt="">
+																<img src="./assets/media/users/100_13.jpg" alt="">
 															</div>
 															<div class="kt-widget4__info">
 																<a href="#" class="kt-widget4__username">
@@ -2847,7 +2847,7 @@
 														</div>
 														<div class="kt-widget4__item">
 															<div class="kt-widget4__pic kt-widget4__pic--pic">
-																<img src="assets/media/users/100_9.jpg" alt="">
+																<img src="./assets/media/users/100_9.jpg" alt="">
 															</div>
 															<div class="kt-widget4__info">
 																<a href="#" class="kt-widget4__username">
@@ -2861,7 +2861,7 @@
 														</div>
 														<div class="kt-widget4__item">
 															<div class="kt-widget4__pic kt-widget4__pic--pic">
-																<img src="assets/media/users/100_2.jpg" alt="">
+																<img src="./assets/media/users/100_2.jpg" alt="">
 															</div>
 															<div class="kt-widget4__info">
 																<a href="#" class="kt-widget4__username">
@@ -2875,7 +2875,7 @@
 														</div>
 														<div class="kt-widget4__item">
 															<div class="kt-widget4__pic kt-widget4__pic--pic">
-																<img src="assets/media/users/100_8.jpg" alt="">
+																<img src="./assets/media/users/100_8.jpg" alt="">
 															</div>
 															<div class="kt-widget4__info">
 																<a href="#" class="kt-widget4__username">
@@ -4455,7 +4455,7 @@
 												<div class="kt-widget3__item">
 													<div class="kt-widget3__header">
 														<div class="kt-widget3__user-img">
-															<img class="kt-widget3__img" src="assets/media/users/user1.jpg" alt="">
+															<img class="kt-widget3__img" src="./assets/media/users/user1.jpg" alt="">
 														</div>
 														<div class="kt-widget3__info">
 															<a href="#" class="kt-widget3__username">
@@ -4478,7 +4478,7 @@
 												<div class="kt-widget3__item">
 													<div class="kt-widget3__header">
 														<div class="kt-widget3__user-img">
-															<img class="kt-widget3__img" src="assets/media/users/user4.jpg" alt="">
+															<img class="kt-widget3__img" src="./assets/media/users/user4.jpg" alt="">
 														</div>
 														<div class="kt-widget3__info">
 															<a href="#" class="kt-widget3__username">
@@ -4501,7 +4501,7 @@
 												<div class="kt-widget3__item">
 													<div class="kt-widget3__header">
 														<div class="kt-widget3__user-img">
-															<img class="kt-widget3__img" src="assets/media/users/user5.jpg" alt="">
+															<img class="kt-widget3__img" src="./assets/media/users/user5.jpg" alt="">
 														</div>
 														<div class="kt-widget3__info">
 															<a href="#" class="kt-widget3__username">
@@ -4997,7 +4997,7 @@
 						Default
 					</div>
 					<div class="kt-demo-panel__item-preview">
-						<img src="assets/media/demos/preview/demo1.jpg" alt="" />
+						<img src="./assets/media/demos/preview/demo1.jpg" alt="" />
 						<div class="kt-demo-panel__item-preview-overlay">
 							<a href="demo1/index.html" class="btn btn-brand btn-elevate " target="_blank">Preview</a>
 						</div>
@@ -5008,7 +5008,7 @@
 						Demo 2
 					</div>
 					<div class="kt-demo-panel__item-preview">
-						<img src="assets/media/demos/preview/demo2.jpg" alt="" />
+						<img src="./assets/media/demos/preview/demo2.jpg" alt="" />
 						<div class="kt-demo-panel__item-preview-overlay">
 							<a href="demo2/index.html" class="btn btn-brand btn-elevate " target="_blank">Preview</a>
 						</div>
@@ -5019,7 +5019,7 @@
 						Demo 3
 					</div>
 					<div class="kt-demo-panel__item-preview">
-						<img src="assets/media/demos/preview/demo3.jpg" alt="" />
+						<img src="./assets/media/demos/preview/demo3.jpg" alt="" />
 						<div class="kt-demo-panel__item-preview-overlay">
 							<a href="demo3/index.html" class="btn btn-brand btn-elevate " target="_blank">Preview</a>
 						</div>
@@ -5030,7 +5030,7 @@
 						Demo 4
 					</div>
 					<div class="kt-demo-panel__item-preview">
-						<img src="assets/media/demos/preview/demo4.jpg" alt="" />
+						<img src="./assets/media/demos/preview/demo4.jpg" alt="" />
 						<div class="kt-demo-panel__item-preview-overlay">
 							<a href="demo4/index.html" class="btn btn-brand btn-elevate " target="_blank">Preview</a>
 						</div>
@@ -5041,7 +5041,7 @@
 						Demo 5
 					</div>
 					<div class="kt-demo-panel__item-preview">
-						<img src="assets/media/demos/preview/demo5.jpg" alt="" />
+						<img src="./assets/media/demos/preview/demo5.jpg" alt="" />
 						<div class="kt-demo-panel__item-preview-overlay">
 							<a href="demo5/index.html" class="btn btn-brand btn-elevate " target="_blank">Preview</a>
 						</div>
@@ -5052,7 +5052,7 @@
 						Demo 6
 					</div>
 					<div class="kt-demo-panel__item-preview">
-						<img src="assets/media/demos/preview/demo6.jpg" alt="" />
+						<img src="./assets/media/demos/preview/demo6.jpg" alt="" />
 						<div class="kt-demo-panel__item-preview-overlay">
 							<a href="demo6/index.html" class="btn btn-brand btn-elevate " target="_blank">Preview</a>
 						</div>
@@ -5063,7 +5063,7 @@
 						Demo 7
 					</div>
 					<div class="kt-demo-panel__item-preview">
-						<img src="assets/media/demos/preview/demo7.jpg" alt="" />
+						<img src="./assets/media/demos/preview/demo7.jpg" alt="" />
 						<div class="kt-demo-panel__item-preview-overlay">
 							<a href="demo7/index.html" class="btn btn-brand btn-elevate " target="_blank">Preview</a>
 						</div>
@@ -5074,7 +5074,7 @@
 						Demo 8
 					</div>
 					<div class="kt-demo-panel__item-preview">
-						<img src="assets/media/demos/preview/demo8.jpg" alt="" />
+						<img src="./assets/media/demos/preview/demo8.jpg" alt="" />
 						<div class="kt-demo-panel__item-preview-overlay">
 							<a href="demo8/index.html" class="btn btn-brand btn-elevate " target="_blank">Preview</a>
 						</div>
@@ -5085,7 +5085,7 @@
 						Demo 9
 					</div>
 					<div class="kt-demo-panel__item-preview">
-						<img src="assets/media/demos/preview/demo9.jpg" alt="" />
+						<img src="./assets/media/demos/preview/demo9.jpg" alt="" />
 						<div class="kt-demo-panel__item-preview-overlay">
 							<a href="demo9/index.html" class="btn btn-brand btn-elevate " target="_blank">Preview</a>
 						</div>
@@ -5096,7 +5096,7 @@
 						Demo 10
 					</div>
 					<div class="kt-demo-panel__item-preview">
-						<img src="assets/media/demos/preview/demo10.jpg" alt="" />
+						<img src="./assets/media/demos/preview/demo10.jpg" alt="" />
 						<div class="kt-demo-panel__item-preview-overlay">
 							<a href="demo10/index.html" class="btn btn-brand btn-elevate " target="_blank">Preview</a>
 						</div>
@@ -5107,7 +5107,7 @@
 						Demo 11
 					</div>
 					<div class="kt-demo-panel__item-preview">
-						<img src="assets/media/demos/preview/demo11.jpg" alt="" />
+						<img src="./assets/media/demos/preview/demo11.jpg" alt="" />
 						<div class="kt-demo-panel__item-preview-overlay">
 							<a href="demo11/index.html" class="btn btn-brand btn-elevate " target="_blank">Preview</a>
 						</div>
@@ -5118,7 +5118,7 @@
 						Demo 12
 					</div>
 					<div class="kt-demo-panel__item-preview">
-						<img src="assets/media/demos/preview/demo12.jpg" alt="" />
+						<img src="./assets/media/demos/preview/demo12.jpg" alt="" />
 						<div class="kt-demo-panel__item-preview-overlay">
 							<a href="demo12/index.html" class="btn btn-brand btn-elevate " target="_blank">Preview</a>
 						</div>
@@ -5129,7 +5129,7 @@
 						Demo 13
 					</div>
 					<div class="kt-demo-panel__item-preview">
-						<img src="assets/media/demos/preview/demo13.jpg" alt="" />
+						<img src="./assets/media/demos/preview/demo13.jpg" alt="" />
 						<div class="kt-demo-panel__item-preview-overlay">
 							<a href="#" class="btn btn-brand btn-elevate disabled">Coming soon</a>
 						</div>
@@ -5140,7 +5140,7 @@
 						Demo 14
 					</div>
 					<div class="kt-demo-panel__item-preview">
-						<img src="assets/media/demos/preview/demo14.jpg" alt="" />
+						<img src="./assets/media/demos/preview/demo14.jpg" alt="" />
 						<div class="kt-demo-panel__item-preview-overlay">
 							<a href="#" class="btn btn-brand btn-elevate disabled">Coming soon</a>
 						</div>
@@ -5239,7 +5239,7 @@
 										<div class="kt-chat__message kt-bg-light-success">
 											<div class="kt-chat__user">
 												<span class="kt-userpic kt-userpic--circle kt-userpic--sm">
-													<img src="assets/media/users/100_12.jpg" alt="image">
+													<img src="./assets/media/users/100_12.jpg" alt="image">
 												</span>
 												<a href="#" class="kt-chat__username">Jason Muller</a>
 												<span class="kt-chat__datetime">2 Hours</span>
@@ -5253,7 +5253,7 @@
 												<span class="kt-chat__datetime">30 Seconds</span>
 												<a href="#" class="kt-chat__username">You</a>
 												<span class="kt-userpic kt-userpic--circle kt-userpic--sm">
-													<img src="assets/media/users/300_21.jpg" alt="image">
+													<img src="./assets/media/users/300_21.jpg" alt="image">
 												</span>
 											</div>
 											<div class="kt-chat__text">
@@ -5263,7 +5263,7 @@
 										<div class="kt-chat__message kt-bg-light-success">
 											<div class="kt-chat__user">
 												<span class="kt-userpic kt-userpic--circle kt-userpic--sm">
-													<img src="assets/media/users/100_12.jpg" alt="image">
+													<img src="./assets/media/users/100_12.jpg" alt="image">
 												</span>
 												<a href="#" class="kt-chat__username">Jason Muller</a>
 												<span class="kt-chat__datetime">30 Seconds</span>
@@ -5277,7 +5277,7 @@
 												<span class="kt-chat__datetime">Just Now</span>
 												<a href="#" class="kt-chat__username">You</a>
 												<span class="kt-userpic kt-userpic--circle kt-userpic--sm">
-													<img src="assets/media/users/300_21.jpg" alt="image">
+													<img src="./assets/media/users/300_21.jpg" alt="image">
 												</span>
 											</div>
 											<div class="kt-chat__text">
@@ -5287,7 +5287,7 @@
 										<div class="kt-chat__message kt-bg-light-success">
 											<div class="kt-chat__user">
 												<span class="kt-userpic kt-userpic--circle kt-userpic--sm">
-													<img src="assets/media/users/100_12.jpg" alt="image">
+													<img src="./assets/media/users/100_12.jpg" alt="image">
 												</span>
 												<a href="#" class="kt-chat__username">Jason Muller</a>
 												<span class="kt-chat__datetime">2 Hours</span>
@@ -5301,7 +5301,7 @@
 												<span class="kt-chat__datetime">30 Seconds</span>
 												<a href="#" class="kt-chat__username">You</a>
 												<span class="kt-userpic kt-userpic--circle kt-userpic--sm">
-													<img src="assets/media/users/300_21.jpg" alt="image">
+													<img src="./assets/media/users/300_21.jpg" alt="image">
 												</span>
 											</div>
 											<div class="kt-chat__text">
@@ -5311,7 +5311,7 @@
 										<div class="kt-chat__message kt-bg-light-success">
 											<div class="kt-chat__user">
 												<span class="kt-userpic kt-userpic--circle kt-userpic--sm">
-													<img src="assets/media/users/100_12.jpg" alt="image">
+													<img src="./assets/media/users/100_12.jpg" alt="image">
 												</span>
 												<a href="#" class="kt-chat__username">Jason Muller</a>
 												<span class="kt-chat__datetime">30 Seconds</span>
@@ -5325,7 +5325,7 @@
 												<span class="kt-chat__datetime">Just Now</span>
 												<a href="#" class="kt-chat__username"><span>You</span></a>
 												<span class="kt-userpic kt-userpic--circle kt-userpic--sm">
-													<img src="assets/media/users/300_21.jpg" alt="image">
+													<img src="./assets/media/users/300_21.jpg" alt="image">
 												</span>
 											</div>
 											<div class="kt-chat__text">
