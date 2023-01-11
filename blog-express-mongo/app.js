@@ -17,7 +17,7 @@ var blogRoutes = require("./routes/blogs");
 var commentRoutes = require("./routes/comments");
     
 //App Config
-mongoose.connect("mongodb://localhost/blog_site", {useMongoClient: true});
+mongoose.connect("mongodb://127.0.0.1:27017/blog_site");
 mongoose.Promise = global.Promise;
 app.set("view engine", "ejs");
 app.use(express.static("public"));
