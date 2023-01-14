@@ -2,6 +2,8 @@ var express=require('express');
 
 const config = require('./config');
 
+var dbo = require('./db');
+dbo.connectToServer(function(){});
 
 var app= express();
 

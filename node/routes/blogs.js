@@ -1,7 +1,6 @@
 var express = require('express');
 
 var dbo = require('../db');
-dbo.connectToServer(function(){});
 
 
 var router = express.Router({ mergeParams: true });
