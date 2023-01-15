@@ -8,8 +8,11 @@ dbo.connectToServer(function(){});
 var app= express();
 
 var blogRoutes = require("./routes/blogs");
+var initRoutes = require("./init/init");
 
 app.use("/blogs", blogRoutes);
+
+app.use("/init", initRoutes);
 
 
 app.get('/',function(req,res){

@@ -1,0 +1,17 @@
+    [
+        {
+            "title": "input_text",
+            "name": "input",
+            "type": "text"
+        },
+        {
+            "title": "input_number",
+            "name": "input",
+            "type": "number"
+        },
+        {
+            "title": "input_date",
+            "name": "input",
+            "type": "date"
+        }
+    ]
